@@ -1,21 +1,12 @@
 ## ABSTRACT:
-In this project, we will analyze and predict the win possibilities of deals/projects for an IT consulting company and see how the possibility of winning a deal is impacted by other variables. This will enable the IT consulting company to manage the effort required to win a deal to meet the growth targets.
+In this project, we will analyze and predict the fraud detection wrt the online transactions. There are multiple classified datasets provided which have to be merged to get the final training dataset. A test dataset is provided seperately for prediction purpose.
 
 ## PROJECT OUTLOOK:
-IT firms compete for winning large deals by designing and proposing solutions to their clients. Even a marginal improvement in the win rate can result
-into substantial revenue addition for IT firm .
-By predicting the probability of winning a deal, the management teams can prioritize the pipeline of opportunities to staff.
+Fraud in online transactions is a big issue in the banking domain and this model strives to identify the fraudulent transactions based on the patterns visible in the datasets provided.
 
 ## OBJECTIVE:
-➢ Predictive Analytics - Build a ML model to predict the probability of win/loss for bidding activities for a potential client.
-➢ Prescriptive Analytics – Identify variable/s that are most likely to help in converting an opportunity into a win.
-➢ Recommending top 5 Head-Bid Manager.
-➢ For every false prediction calculate the loss which the company will face.
+➢ Predictive Analytics - Build a ML model to predict the fraudulent transactions
+➢ Prescriptive Analytics – Identify variable/s that are most likely to contribute to identifying the fraudulent transaction
 
 ## Overview Of the problem
-There is a single file which contains data related to the projects/deals won or lost. This data contains the project category, price and sector from
-2011 to 2018.
-### Objective 1: Predictive
-Analytics - Build a ML model to predict the probability of win/loss for bidding activities for a potential client. 
-### Objective 2: Prescriptive Analytics – Identify variable/s
-that are most likely to help in converting an opportunity into a win.
+There are 5 datasets provided in csv format and we need to merge these details to form the final training dataset. 
