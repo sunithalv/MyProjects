@@ -15,7 +15,7 @@ By predicting the probability of winning a deal, the management teams can priori
 ## Overview Of the problem
 There is a single file which contains data related to the projects/deals won or lost. This data contains the project category, price and sector from
 2011 to 2018.
-# Objective 1: Predictive
+### Objective 1: Predictive
 Analytics - Build a ML model to predict the probability of win/loss for bidding activities for a potential client. 
-# Objective 2: Prescriptive Analytics – Identify variable/s
+### Objective 2: Prescriptive Analytics – Identify variable/s
 that are most likely to help in converting an opportunity into a win.
