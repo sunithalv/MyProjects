@@ -16,7 +16,7 @@ The project determines the password strength entered in the front end to be of 3
 There is a single file which contains 668979 passwords with their strength provided to be used as the training dataset.
 
 ## Model Building
-XGBoost had the highest accuracy with 98.5% and hence used in model building.
+The data was vectorized using TFIDF and  XGBoost which had the highest accuracy of 98.5% was used in model building.
 
 # Application
 
