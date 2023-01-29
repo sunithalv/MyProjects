@@ -8,4 +8,10 @@ Fraud in online transactions is a big issue in the banking domain and this model
 ➢ Predictive Analytics - Build a ML model to predict the fraudulent transactions
 ➢ Prescriptive Analytics – Identify variable/s that are most likely to contribute to identifying the fraudulent transaction
 
+## CHALLENGES:
+Imbalanced dataset and hence oversampling done to overcome it.
+
+## MODEL BUILDING:
+Random Forest Classifier with an accuracy of 95%
+
 
