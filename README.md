@@ -4,3 +4,4 @@ This repository contains multiple datascience projects done in  Machine Learning
 ## ML projects
 1) Win Prediction - Finance Domain
 2) Fraud Detection - Finance Domain
+3) Password Strength Detector - NLP
