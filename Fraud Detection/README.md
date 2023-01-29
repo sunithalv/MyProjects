@@ -12,6 +12,6 @@ Fraud in online transactions is a big issue in the banking domain and this model
 Imbalanced dataset and hence oversampling done to overcome it.
 
 ## MODEL BUILDING:
-Random Forest Classifier with an accuracy of 95%
+Random Forest Classifier with an accuracy of 90.5%
 
 
