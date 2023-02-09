@@ -2,7 +2,7 @@
   This Dataset is taken from the official NIH Website: https://ceb.nlm.nih.gov/repositories/malaria-datasets/ . The dataset has 2 labels parasitized and uninfected with the corresponding cell images. There are a total of 27,558 images.
    
 ## Model Building
-Transfer learning was ised in model building as CNN did not give a good accuracy. vgg19 model was used as it gave the best results.80% of images were used in training   and 20% in testing.
+Transfer learning was used in model building as CNN did not give a good accuracy. vgg19 model was used as it gave the best results.80% of images were used in training   and 20% in testing.
  The model has a train accuracy of 95% and validation accuracy of 90.5%
  
  ## Deployment
