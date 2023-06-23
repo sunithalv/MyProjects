@@ -4,8 +4,12 @@ This repository contains multiple datascience projects done in  Machine Learning
 ## ML projects
 1) Win Prediction - Finance Domain
 2) Fraud Detection - Finance Domain
-3) Password Strength Detector - NLP
 
-## DL projects
+## Computer Vision projects
 1) Malaria Detection
 2) Image segmentation with CAMUS dataset
+
+
+## NLP projects
+1)  Password Strength Detector
+2)  Image Caption Generator
