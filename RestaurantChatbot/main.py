@@ -18,6 +18,7 @@ async def handle_request(request: Request):
     output_contexts = payload['queryResult']['outputContexts']
     session_id = generic_helper.extract_session_id(output_contexts[0]["name"])
     intent_handler_dict = {
+        'new.order': new_order,
         'order.add-context:ongoing-order': add_to_order,
         'order.remove-context:ongoing-order': remove_from_order,
          'order.complete-context:ongoing-order': complete_order,
@@ -25,6 +26,18 @@ async def handle_request(request: Request):
     }
 
     return intent_handler_dict[intent](parameters , session_id)
+
+def new_order(parameters: dict, session_id: str):
+    #Remove any existing orders for session id when the user inputs new order
+    if inprogress_orders.get(session_id) is not None:
+        del inprogress_orders[session_id]
+    fulfillment_text = "Ok, starting a new order. You can say things like 'I want two pizzas and one mango lassi'."\
+                "We have the following items on our menu: Pav Bhaji, Chole Bhature, Pizza, Mango Lassi, Masala Dosa,"\
+                 "Biryani, Vada Pav, Rava Dosa, and Samosa."
+    return JSONResponse(content={
+            "fulfillmentText": fulfillment_text
+        })
+
 
 def save_to_db(order: dict):
     next_order_id = db_helper.get_next_order_id()
